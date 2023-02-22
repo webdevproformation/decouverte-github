@@ -1,4 +1,27 @@
 body{
-  background: #000;
+  background: #e46f6f;
   color: white;
 }
+
+nav {
+  background-color: blueviolet;
+  height: 35px;
+  text-align: center;
+}
+
+nav a {
+color: #f6f4e6;
+text-decoration: none;
+font-size: 1em;
+text-transform: uppercase;
+font-weight: 500;
+display: inline-block;
+margin: 8px;
+width: 200px;
+transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+color: #16c7ad;
+}
+
